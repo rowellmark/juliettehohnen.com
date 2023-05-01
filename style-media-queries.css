@@ -1,0 +1,428 @@
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+
+ 
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */ 
+@media only screen and (max-width: 1199px) {
+
+	.default-button a{
+		font-size: 14px;
+	}
+		.default-button a i {
+			font-size: 20px;
+		}
+
+	.default-title h2{
+		padding-left: 30px;
+	}
+		.default-title h2 span {
+			font-size: 12px;
+		}
+
+		.default-title h2 em {
+			font-size: 30px;
+		}
+		.default-title h2 i{
+			font-size: 12px;
+			width: 40px;
+		}
+
+	#sidePanel li a {
+		font-size: 14px;
+	}
+
+	#hpAbout .hpAboutWrapper .aboutContent p{
+		font-size: 12px;
+	}
+
+
+	#hpAbout .hpWorkStats ul li h2{
+		font-size: 18px;
+	}
+
+	#hpAbout .hpWorkStats ul li p{
+		font-size: 12px;
+	}
+
+	#hpTestimonials .hpTestimonaislList p{
+		font-size: 14px;
+	}
+
+
+	#hpTestimonials .hpTestimonaislList h4{
+		font-size: 14px;
+	}
+	#hpTestimonials .hpTestimonaislList h4 span{
+		font-size: 12px;
+	}
+
+
+	.hpMeetTheTeamContent p{
+		font-size: 12px;
+	}
+
+
+	#hpNeighborhood .hpNeighborhoodList h3{
+		font-size: 18px;
+		padding: 25px 0;
+	}
+
+	#globNewsletter .globNewsletterContainer p{
+		font-size: 12px;
+	}
+
+	#globNewsletter .hpNewsletterForm .cc_form_col input{
+		font-size: 12px;
+	}
+
+	#globNewsletter .hpNewsletterForm .cf-submit em{
+		font-size: 14px;
+	}
+		#globNewsletter .hpNewsletterForm .cf-submit em i{
+			font-size: 18px;
+		}
+
+	.footer .footer-info h2{
+		font-size: 18px;
+	}
+
+	.footer .footer-contact-info ul li{
+		font-size: 12px;
+	}
+
+	.footer .footer-smi{
+		padding: 0 20px;
+	}
+		.footer .footer-smi a {
+			font-size: 15px;
+		}
+
+	.footer .footer-nav li a{
+		font-size: 12px;
+	}
+
+	.footer .footer-disclaimer p{
+		font-size: 12px;
+	}
+
+	.footer .footer-disclaimer em{
+		font-size: 12px;
+	}
+
+
+} 
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
+@media only screen and (max-width: 991px) {
+
+	#pojo-a11y-toolbar,
+	#sidePanel{
+		display: none;
+	}
+
+	.header{
+		position: relative;
+		z-index: 10;
+		padding: 80px 0 35px;
+	}
+	.header .navigation,
+	.header .header-icons{
+		display: none;
+	}
+
+	.header .logo{
+		max-width: 200px;
+		margin: 0 auto;
+	}
+
+
+	#hero .slideshow-tagline h1 {
+		font-size: 29px;
+	}
+	#hero .slideshow-tagline h1 span{
+		font-size: 18px;
+	}
+
+
+	.hpFeaturedPropertiesLists .hpFeaturedPropertiesListHover{
+		display: none !important;
+	}
+
+	.hpFeaturedPropertiesLists{
+		margin: 40px 0;
+	}
+		.hpFeaturedPropertiesLists .hpFeaturedPropertiesList{
+			width: 100%;
+			height: auto !important;
+			margin: 0 !important;
+		}
+			.hpFeaturedPropertiesLists a .hpFeaturedPropertiesImage canvas{
+				height: auto !important;
+			}
+
+			.hpFeaturedPropertiesLists a .hpFeaturedPropertiesContent h2 {
+				font-size: 18px;
+			}
+
+			.hpFeaturedPropertiesLists a .hpFeaturedPropertiesContent h4 {
+				font-size: 20px;
+				padding: 20px 0;
+			}
+
+			.hpFeaturedPropertiesLists a .hpFeaturedPropertiesContent p{
+				font-size: 15px;
+			}
+			.hpFeaturedPropertiesLists a .hpFeaturedPropertiesContent span{
+				display: block;
+				font-size: 16px;
+			}
+				.hpFeaturedPropertiesLists a .hpFeaturedPropertiesContent span i{
+					font-size: 20px
+				}
+
+	#hpAbout{
+	}
+		#hpAbout .hpAboutWrapper {
+			padding: 50px 0;
+		}
+		#hpAbout .default-container{
+			flex-flow: column;
+		}
+
+			#hpAbout .hpAboutWrapper .hpAboutImage{
+				width: 100%;
+			}
+
+			#hpAbout .hpAboutWrapper .hpAboutContent{
+				margin: 0;
+				width: 100%;
+				padding: 30px 0;
+			}
+				#hpAbout .hpAboutWrapper .hpAboutContent .aboutContent{
+					flex-flow: column;
+				}
+					#hpAbout .hpAboutWrapper .hpAboutContent .aboutContent div{
+						width: 100%;
+					}
+
+		#hpAbout .hpWorkStats{
+			margin: 0;
+			padding: 40px 0;
+		}
+			#hpAbout .hpWorkStats ul{
+				flex-flow: column;
+			}
+				#hpAbout .hpWorkStats ul li .hpWSDivider{
+					height: 50px;
+				}
+					#hpAbout .hpWorkStats ul li .hpWSDivider::after{
+						width: 100%;
+						height: 1px;
+						top: 50%;
+						transform: translate(0, -50%);
+					}
+					#hpAbout .hpWorkStats ul li .hpWSDivider::before{
+						width: 19px;
+						height: 19px;
+					}
+				#hpAbout .hpWorkStats ul li h2{
+					padding: 0;
+				}
+	#hpTestimonials .hpTestimonaislLists{
+		padding: 30px 0;
+	}
+
+	#hpTestimonials .hpTestimonialsPagination{
+		flex-flow: column-reverse;
+	}
+		#hpTestimonials .hpTestimonialsPagination > div{
+			padding: 10px 0;
+		}
+
+	#hpMeetTheTeam{
+		padding: 40px 0;
+	}
+		.hpMeetTheTeamContainer{
+			flex-flow: column;
+		}
+			.hpMeetTheTeamContent{
+				width: 100%;
+			}
+
+			.hpMeetTheTeamImage{
+				width: 100%;
+				margin: 0;
+			}
+
+	#hpPress{
+
+	}
+		#hpPress .default-container{
+			flex-flow: column;
+		}
+			#hpPress .hpPressImage{
+				width: 100%;
+			}
+
+			#hpPress .hpPressContent{
+				width: 100%;
+				padding: 40px 0;
+			}
+				#hpPress .hpPressContent .default-title{
+					display: flex;
+					justify-content: center;
+				}
+
+				#hpPress .hpPressContent h3{
+					font-size: 20px;
+				}
+	#hpInstagram{
+
+	}
+		#hpInstagram .hpInstagram-title{
+			flex-flow: column;
+		}
+			#hpInstagram .hpInstagram-title > div{
+				padding: 10px 0;
+			}
+
+		#hpInstagram .hpInstagramLists{
+			flex-flow: row wrap;
+			margin: 40px 0;
+			justify-content: center;
+		}
+			#hpInstagram .hpInstagramList{
+				padding: 5px;
+				width: calc(100% / 2);
+			}
+
+	#globNewsletter .globNewsletterContainer{
+		width: 100%;
+		padding: 0 30px;
+	}
+
+		#globNewsletter .hpNewsletterForm .cc_form_row{
+			flex-flow: column;
+		}
+
+		#globNewsletter .hpNewsletterForm .cf-submit{
+			margin-top: 20px;
+		}
+
+		#globNewsletter .hpNewsletterForm .cf-submit em{
+			width: 100%;
+		}
+	.footer{
+		padding: 60px 0;
+	}
+		.footer-container{
+			padding: 0 30px;
+		}
+		.footer .footer-logos{
+			flex-flow: column;
+			align-items: center;
+		}
+			.footer .footer-logos a{
+				width: 100%;
+				max-width: 200px;
+			}
+
+		.footer .footer-info{
+			flex-flow: column;
+			align-items: center;
+			text-align: center;
+			padding: 30px 0;
+			margin: 0;
+		}
+		.footer .footer-info h2{
+			font-size: 20px;
+		}
+		.footer .footer-smi{
+			margin-top: 20px;
+		}
+			.footer .footer-smi a {
+				font-size: 18px;
+			}
+		.footer .footer-nav{
+			width: 100%;
+			margin-top: 20px;
+		}
+			.footer .footer-nav ul{
+				
+			}
+				.footer .footer-nav li{
+					width: 100%;
+				}
+		.footer .footer-disclaimer{
+			text-align: center;
+		}
+
+		.footer .footer-copyright{
+			padding: 20px 0;
+			flex-flow: column;
+		}
+			.footer .footer-copyright p{
+				font-size: 14px;
+				text-align: center;
+				padding: 15px 0;
+			}
+
+			.footer .footer-copyright .copyright-logos i{
+				font-size: 30px;
+			}
+	/* The following are used on inner pages. Please edit carefully. */
+
+	.inner {
+	    width: 100%;
+	}
+	#content-sidebar, #content-full {
+	    width: 100%;
+	}	
+	.outer{
+		width: 100%;
+		min-width: 100%;
+	}
+	#content-sidebar #content{
+		width: 100%;
+	}
+	
+} 
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
+@media only screen and (max-width: 767px) {
+
+	.default-button a i{
+		right: 6px;
+	}
+	.default-title h2 em {
+		font-size: 20px;
+	}
+
+	#hero .slideshow-tagline h1 {
+		font-size: 17px;
+	}
+		#hero .slideshow-tagline h1 span {
+			font-size: 13px;
+		}
+
+	.hpFeaturedPropertiesLists a .hpFeaturedPropertiesContent h2 {
+		font-size: 16px;
+	}
+	.hpFeaturedPropertiesLists a .hpFeaturedPropertiesContent p {
+		font-size: 13px;
+	}
+
+
+    .ip-banner .container{
+        width: 100%;
+    }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
+@media only screen and (max-width: 480px) {
+
+}
+ 
